@@ -1,7 +1,7 @@
 {
   "name": "@stronghandsmoney/sdk",
   "license": "MIT",
-  "version": "2.4.3",
+  "version": "2.0.0",
   "description": "🛠 An SDK for building applications on top of Stronghands Money.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
