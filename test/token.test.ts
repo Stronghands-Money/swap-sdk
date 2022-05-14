@@ -31,7 +31,7 @@ describe('Token', () => {
     })
 
     it('true even if name/symbol/decimals/projectLink differ', () => {
-      const tokenA = new Token(ChainId.MAINNET, ADDRESS_ONE, 9, 'abc', 'def', 'https://www.binance.org/')
+      const tokenA = new Token(ChainId.MAINNET, ADDRESS_ONE, 9, 'abc', 'def', 'https://www.cronos.org/')
       const tokenB = new Token(ChainId.MAINNET, ADDRESS_ONE, 18, 'ghi', 'jkl', 'https://coinmarketcap.com/')
       expect(tokenA.equals(tokenB)).toBe(true)
     })
